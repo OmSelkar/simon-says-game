@@ -1,7 +1,7 @@
 ## **Simon Says Game**  
 
 ### **Live Demo**  
-You can play the **Simon Says Game** live **[here](#)** (Replace `#` with the actual live link).  
+You can play the **Simon Says Game** live **[here](https://omselkar.github.io/simon-says-game/)**
 
 ---
 
