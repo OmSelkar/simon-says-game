@@ -82,15 +82,15 @@ let checkAns = function (idx) {
     if (gameSeq[idx] == userSeq[idx]) {
         if (gameSeq.length == userSeq.length){
             setTimeout(levelUp, 1000);
-            if (highScore <= levelCnter) highScore = levelCnter;
-            h3.innerHTML = `High Score : <b>${highScore-1}</b>`
+            if (highScore <= levelCnter-1) highScore = levelCnter-1;
+            h3.innerHTML = `High Score : <b>${highScore}</b>`
             score.innerHTML = `Score : <b>${levelCnter-1}</b>`
         }
         console.log(`true`)
         
     }
     else {
-        p.innerHTML = `Game Over! Your Score is <b>${levelCnter - 1}</b> <br><br> Press Any Key To Start`;
+        p.innerHTML = `Game Over! Your Score is <b>${levelCnter - 2}</b> <br><br> Press Any Key To Start`;
 
         document.querySelector('body').style.backgroundColor = 'red'
 
